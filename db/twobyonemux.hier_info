@@ -1,0 +1,35 @@
+|twobyonemux
+in_inputone[0] => out_output[0].DATAB
+in_inputone[1] => out_output[1].DATAB
+in_inputone[2] => out_output[2].DATAB
+in_inputone[3] => out_output[3].DATAB
+in_inputone[4] => out_output[4].DATAB
+in_inputone[5] => out_output[5].DATAB
+in_inputone[6] => out_output[6].DATAB
+in_inputone[7] => out_output[7].DATAB
+in_inputtwo[0] => out_output[0].DATAA
+in_inputtwo[1] => out_output[1].DATAA
+in_inputtwo[2] => out_output[2].DATAA
+in_inputtwo[3] => out_output[3].DATAA
+in_inputtwo[4] => out_output[4].DATAA
+in_inputtwo[5] => out_output[5].DATAA
+in_inputtwo[6] => out_output[6].DATAA
+in_inputtwo[7] => out_output[7].DATAA
+in_sel => out_output[0].OUTPUTSELECT
+in_sel => out_output[1].OUTPUTSELECT
+in_sel => out_output[2].OUTPUTSELECT
+in_sel => out_output[3].OUTPUTSELECT
+in_sel => out_output[4].OUTPUTSELECT
+in_sel => out_output[5].OUTPUTSELECT
+in_sel => out_output[6].OUTPUTSELECT
+in_sel => out_output[7].OUTPUTSELECT
+out_output[0] <= out_output[0].DB_MAX_OUTPUT_PORT_TYPE
+out_output[1] <= out_output[1].DB_MAX_OUTPUT_PORT_TYPE
+out_output[2] <= out_output[2].DB_MAX_OUTPUT_PORT_TYPE
+out_output[3] <= out_output[3].DB_MAX_OUTPUT_PORT_TYPE
+out_output[4] <= out_output[4].DB_MAX_OUTPUT_PORT_TYPE
+out_output[5] <= out_output[5].DB_MAX_OUTPUT_PORT_TYPE
+out_output[6] <= out_output[6].DB_MAX_OUTPUT_PORT_TYPE
+out_output[7] <= out_output[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
